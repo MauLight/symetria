@@ -37,3 +37,12 @@ html {
     background-position: 100% 50%;
   }
 }
+
+.hero-parent {
+  perspective: 2000px; /* Adjust the perspective value as needed */
+}
+
+/* Child element */
+.hero-child {
+  transform: rotateY(-20deg); /* Adjust the rotation angle as needed */
+}
