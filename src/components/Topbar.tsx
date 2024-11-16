@@ -1,9 +1,16 @@
 import TopbarLinks from './topbar/Links'
 import Logo_light from '../assets/imgs/Symetria.png'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../utils/functions'
 
 function Topbar() {
     return (
-        <div className="w-full  z-20 fixed flex justify-center bg-transparent py-3">
+        <motion.div
+            variants={fadeIn('top', 1)}
+            initial={'hidden'}
+            whileInView={'show'}
+            viewport={{ once: true, amount: 0.1 }}
+            className="w-full  z-20 fixed flex justify-center bg-transparent py-3">
             <div className="w-[1440px] flex justify-end">
                 <div className="relative w-[40rem] h-[80px] p-4">
                     {/* <div className={`w-full h-full ${animatedGradient} blur opacity-90`}></div> */}
@@ -14,7 +21,7 @@ function Topbar() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
