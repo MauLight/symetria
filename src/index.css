@@ -5,10 +5,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: CodeNext-SemiBold;
-  src: url("/src/assets/fonts/CodeNext-SemiBold.otf") format("otf");
-  font-weight: bold;
-  font-style: normal;
+  font-family: "CodeNext";
+  src: url("/src/assets/fonts/CodeNext-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "PowerGrotesk";
+  src: url("/src/assets/fonts/PowerGrotesk-Regular.ttf");
 }
 
 html {

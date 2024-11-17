@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 const linkStyle = 'text-sym-700 text-[0.9rem] uppercase hover:animate-pulse'
 
 
-function TopbarLinks() {
+function TopbarLinks({ className = '' }: { className?: string }) {
     return (
-        <div className='grow flex justify-between items-center pl-12'>
+        <div className={`grow flex justify-between ${className}`}>
             <Link className={linkStyle} to={'/'}>About</Link>
             <Link className={linkStyle} to={'/'}>Services</Link>
             <Link className={linkStyle} to={'/'}>Technologies</Link>

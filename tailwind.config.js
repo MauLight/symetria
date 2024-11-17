@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        title: ['CodeNext', 'sans-serif']
+        title: ['PowerGrotesk', 'sans-serif']
       },
       colors: {
         sym_gray: {
