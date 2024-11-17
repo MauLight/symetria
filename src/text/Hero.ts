@@ -1,7 +1,7 @@
 export const heroText: { id: string, text: string }[] = [
     {
         id: 'a1',
-        text: 'Hello Symetria'
+        text: 'Symetria'
     },
     {
         id: 'b2',

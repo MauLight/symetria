@@ -33,6 +33,7 @@
     "react-qr-code": "^2.0.15",
     "react-router-dom": "^6.28.0",
     "react-toastify": "^10.0.6",
+    "react-typed": "^2.0.12",
     "yup": "^1.4.0"
   },
   "devDependencies": {
